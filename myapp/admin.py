@@ -1,5 +1,9 @@
 from django.contrib import admin
+<<<<<<< HEAD
 from .models import Clients, Orders, GoodsTypes, Items, OrderItem, Vehicles, Drivers, Routes, Shipments, Warehouses, WarehouseReservations
+=======
+from myapp.models import Clients, Orders, GoodsTypes, Items, OrderItem, Vehicles, Drivers, Routes, Shipments, Warehouses, WarehouseReservations
+>>>>>>> ede990f (Initial commit of Django project with REST API and authentication)
 
 admin.site.register(Clients)
 admin.site.register(Orders)
