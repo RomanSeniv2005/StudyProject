@@ -1,18 +1,12 @@
 from django.db import models
 
-<<<<<<< HEAD
-=======
 
->>>>>>> ede990f (Initial commit of Django project with REST API and authentication)
 class Clients(models.Model):
     name = models.CharField(max_length=100)
     phone = models.CharField(max_length=15)
     email = models.EmailField(max_length=100)
 
-<<<<<<< HEAD
-=======
 
->>>>>>> ede990f (Initial commit of Django project with REST API and authentication)
 class Orders(models.Model):
     client = models.ForeignKey(Clients, on_delete=models.CASCADE, related_name='orders')
     OrderDate = models.DateField()

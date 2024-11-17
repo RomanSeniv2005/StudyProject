@@ -31,17 +31,16 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-<<<<<<< HEAD
-=======
+
     'rest_framework',
->>>>>>> ede990f (Initial commit of Django project with REST API and authentication)
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'myapp'
+    'myapp',
+    'frontend',
 ]
 
 MIDDLEWARE = [
@@ -89,15 +88,13 @@ DATABASES = {
     }
 }
 
-<<<<<<< HEAD
-=======
+
 REST_FRAMEWORK = {
     'DEFAULT_AUTHENTICATION_CLASSES': [
         'rest_framework.authentication.BasicAuthentication',
         'rest_framework.authentication.SessionAuthentication',
     ]
 }
->>>>>>> ede990f (Initial commit of Django project with REST API and authentication)
 
 
 # Password validation

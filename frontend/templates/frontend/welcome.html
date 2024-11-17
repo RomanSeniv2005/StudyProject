@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <style>
+        body { display: flex; justify-content: center; align-items: center; height: 100vh; background-color: #f2f2f2; font-family: Arial, sans-serif; }
+        .container { text-align: center; }
+        h1 { font-size: 2.5em; color: #333; }
+        .buttons { margin-top: 20px; }
+        .button { display: inline-block; padding: 15px 30px; margin: 10px; color: #fff; background-color: #4CAF50; border: none; border-radius: 5px; text-decoration: none; font-size: 1.2em; transition: background-color 0.3s; }
+        .button:hover { background-color: #45a049; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to the page</h1>
+        <div class="buttons">
+            <a href="{% url 'client_list' %}" class="button">Clients</a>
+            <a href="{% url 'create_order' %}" class ="button">Create order</a>
+        </div>
+    </div>
+</body>
+</html>

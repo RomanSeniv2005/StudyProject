@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from myapp.views import (
+from .views import (
     ClientsViewSet, OrdersViewSet, GoodsTypesViewSet, ItemsViewSet,
     OrderItemViewSet, VehiclesViewSet, DriversViewSet, RoutesViewSet,
     ShipmentsViewSet, WarehousesViewSet, WarehouseReservationsViewSet
